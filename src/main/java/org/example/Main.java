@@ -5,12 +5,11 @@ public class Main {
         System.out.println("---");
         System.out.println("Hello World!");
         System.out.println("10001");
+        doSomething();
         System.out.println("----");
     }
 
     public static void doSomething(){
-        System.out.println(1);
-        System.out.println(1);
-        System.out.println(1);
+        System.out.println("Hello World!");
     }
 }
